@@ -1,0 +1,65 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #077187;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  background-color: #074F57;
+  color: #74A57F;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+
+h2 {
+  color: #9ECE9A;
+}
+
+.participants,
+.weapons {
+  display: flex;
+  gap: 20px;
+  color: #A6E1FA;
+}
+
+.participant,
+.weapon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #A6E1FA;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+img {
+  width: 200px;
+}
+
+.weapon:hover {
+  cursor: pointer;
+  background-color: #A6E1FA;
+}
+
+.weapons {
+  margin-top: 50px;
+}
+
